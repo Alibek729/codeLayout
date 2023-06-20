@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		67860CB22A38809500FF2156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860CB12A38809500FF2156 /* AppDelegate.swift */; };
 		67860CB42A38809500FF2156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860CB32A38809500FF2156 /* SceneDelegate.swift */; };
-		67860CB92A38809500FF2156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67860CB72A38809500FF2156 /* Main.storyboard */; };
 		67860CBC2A38809500FF2156 /* M1L7_CleanSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67860CBA2A38809500FF2156 /* M1L7_CleanSwift.xcdatamodeld */; };
 		67860CBE2A38809700FF2156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67860CBD2A38809700FF2156 /* Assets.xcassets */; };
 		67860CC12A38809700FF2156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67860CBF2A38809700FF2156 /* LaunchScreen.storyboard */; };
@@ -32,6 +31,9 @@
 		67860D842A406CC700FF2156 /* LoginPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860D832A406CC700FF2156 /* LoginPresenterTest.swift */; };
 		67860D862A40786100FF2156 /* LoginViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860D852A40786100FF2156 /* LoginViewControllerTest.swift */; };
 		67860D8A2A4199E700FF2156 /* TaskManagePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 67860D892A4199E700FF2156 /* TaskManagePackage */; };
+		67860D8C2A41ACE800FF2156 /* UIViewController + Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860D8B2A41ACE800FF2156 /* UIViewController + Preview.swift */; };
+		67860D8F2A41B1B800FF2156 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860D8E2A41B1B800FF2156 /* Sizes.swift */; };
+		67860D932A41B61400FF2156 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 67860D922A41B61400FF2156 /* PinLayout */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,6 @@
 		67860CAE2A38809500FF2156 /* M1L7 CleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M1L7 CleanSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67860CB12A38809500FF2156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67860CB32A38809500FF2156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67860CB82A38809500FF2156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67860CBB2A38809500FF2156 /* M1L7_CleanSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = M1L7_CleanSwift.xcdatamodel; sourceTree = "<group>"; };
 		67860CBD2A38809700FF2156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67860CC02A38809700FF2156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,6 +74,8 @@
 		67860D832A406CC700FF2156 /* LoginPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterTest.swift; sourceTree = "<group>"; };
 		67860D852A40786100FF2156 /* LoginViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTest.swift; sourceTree = "<group>"; };
 		67860D882A4199CD00FF2156 /* TaskManagePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TaskManagePackage; path = "../M2L3 Framework TaskManager/TaskManagePackage"; sourceTree = "<group>"; };
+		67860D8B2A41ACE800FF2156 /* UIViewController + Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Preview.swift"; sourceTree = "<group>"; };
+		67860D8E2A41B1B800FF2156 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67860D932A41B61400FF2156 /* PinLayout in Frameworks */,
 				67860D8A2A4199E700FF2156 /* TaskManagePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,9 +123,10 @@
 			children = (
 				67860CB12A38809500FF2156 /* AppDelegate.swift */,
 				67860CB32A38809500FF2156 /* SceneDelegate.swift */,
+				67860D8E2A41B1B800FF2156 /* Sizes.swift */,
 				67860CE82A3B645500FF2156 /* TaskManager */,
 				67860CD42A3B273900FF2156 /* Scenes */,
-				67860CB72A38809500FF2156 /* Main.storyboard */,
+				67860D8D2A41ACEF00FF2156 /* Extension */,
 				67860CBD2A38809700FF2156 /* Assets.xcassets */,
 				67860CBF2A38809700FF2156 /* LaunchScreen.storyboard */,
 				67860CC22A38809700FF2156 /* Info.plist */,
@@ -208,6 +213,14 @@
 			path = LoginScene;
 			sourceTree = "<group>";
 		};
+		67860D8D2A41ACEF00FF2156 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67860D8B2A41ACE800FF2156 /* UIViewController + Preview.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,6 +239,7 @@
 			name = "M1L7 CleanSwift";
 			packageProductDependencies = (
 				67860D892A4199E700FF2156 /* TaskManagePackage */,
+				67860D922A41B61400FF2156 /* PinLayout */,
 			);
 			productName = "M1L7 CleanSwift";
 			productReference = 67860CAE2A38809500FF2156 /* M1L7 CleanSwift.app */;
@@ -277,6 +291,9 @@
 				Base,
 			);
 			mainGroup = 67860CA52A38809500FF2156;
+			packageReferences = (
+				67860D912A41B61400FF2156 /* XCRemoteSwiftPackageReference "PinLayout" */,
+			);
 			productRefGroup = 67860CAF2A38809500FF2156 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -294,7 +311,6 @@
 			files = (
 				67860CC12A38809700FF2156 /* LaunchScreen.storyboard in Resources */,
 				67860CBE2A38809700FF2156 /* Assets.xcassets in Resources */,
-				67860CB92A38809500FF2156 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +332,7 @@
 				67860CD02A39734E00FF2156 /* LoginModels.swift in Sources */,
 				67860CF32A3B661500FF2156 /* TaskRepository.swift in Sources */,
 				67860CCE2A39734300FF2156 /* LoginPresenter.swift in Sources */,
+				67860D8C2A41ACE800FF2156 /* UIViewController + Preview.swift in Sources */,
 				67860CDA2A3B278B00FF2156 /* TodoListInteractor.swift in Sources */,
 				67860CD62A3B276400FF2156 /* TodoListViewController.swift in Sources */,
 				67860CF12A3B65F000FF2156 /* SectionForTaskManagerAdapter.swift in Sources */,
@@ -327,6 +344,7 @@
 				67860CCC2A39733100FF2156 /* LoginInteractor.swift in Sources */,
 				67860CEF2A3B65D900FF2156 /* ISectionForTaskManagerAdapter.swift in Sources */,
 				67860CD22A39735B00FF2156 /* LoginWorker.swift in Sources */,
+				67860D8F2A41B1B800FF2156 /* Sizes.swift in Sources */,
 				67860CB22A38809500FF2156 /* AppDelegate.swift in Sources */,
 				67860CCA2A39731500FF2156 /* LoginViewController.swift in Sources */,
 				67860CB42A38809500FF2156 /* SceneDelegate.swift in Sources */,
@@ -354,14 +372,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		67860CB72A38809500FF2156 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67860CB82A38809500FF2156 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		67860CBF2A38809700FF2156 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -499,7 +509,7 @@
 				INFOPLIST_FILE = "M1L7 CleanSwift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -527,7 +537,7 @@
 				INFOPLIST_FILE = "M1L7 CleanSwift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -611,10 +621,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		67860D912A41B61400FF2156 /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		67860D892A4199E700FF2156 /* TaskManagePackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TaskManagePackage;
+		};
+		67860D922A41B61400FF2156 /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67860D912A41B61400FF2156 /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
 		};
 /* End XCSwiftPackageProductDependency section */
 

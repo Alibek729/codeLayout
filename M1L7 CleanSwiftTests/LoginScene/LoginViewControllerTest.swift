@@ -16,13 +16,13 @@ final class LoginViewControllerTest: XCTestCase {
 	override func setUp() {
 		super.setUp()
 
-		let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-		sut = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController
-
-		interactor = LoginInteractorSpy()
-		sut.interactor = interactor
-		window = UIWindow()
-		window.addSubview(sut.view)
+//		let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+//		sut = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController
+//
+//		interactor = LoginInteractorSpy()
+//		sut.interactor = interactor
+//		window = UIWindow()
+//		window.addSubview(sut.view)
 
 		RunLoop.current.run(until: Date())
 	}

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 protocol ILoginViewController: AnyObject {
 	func render(viewModel: LoginModels.ViewModel)
