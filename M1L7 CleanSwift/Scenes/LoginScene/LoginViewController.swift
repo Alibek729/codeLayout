@@ -124,16 +124,16 @@ private extension LoginViewController {
 
 		textFieldLogin
 			.pin
-			.vertically(view.bounds.size.height / 4)
+			.vertically(Sizes.Padding.top)
 			.hCenter()
-			.width(Sizes.L.width)
+			.width(Sizes.L.maxWidth)
 			.height(Sizes.L.height)
 
 		textFieldPass
 			.pin
 			.below(of: textFieldLogin, aligned: .center)
 			.margin(Sizes.Padding.normal)
-			.width(Sizes.L.width)
+			.width(Sizes.L.maxWidth)
 			.height(Sizes.L.height)
 
 		buttonLogin
